@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta de San Valentín 💖</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <img id="cartero" src="images/cartero.jpeg" alt="Gatito Cartero">
+        <h2 id="texto-inicial">📜 Te llegó una carta...</h2>
+        <button id="recibir-carta">💌 Recibir carta</button>
+
+        <img id="carta-cerrada" class="hidden carta" src="images/carta.jpg" alt="Carta Cerrada">
+        <p id="instruccion-carta" class="hidden">📩 Pulsa la carta para abrirla</p>
+
+        <div id="carta-abierta" class="hidden mensaje">
+            <p>Usted es lo más importante que tengo, cada día que tengo el honor de estar a su lado me siento muy afortunado. 💖 Deseo poder hacerla feliz cada día, viviendo momentos a su lado. Solamente permítame el honor de pasar uno nuevo junto a usted. ✨</p>
+        </div>
+
+        <button id="btn-propuesta" class="hidden">💍 Propuesta</button>
+
+        <div id="propuesta" class="hidden mensaje">
+            <img id="imagen-pregunta" src="images/Pregunta1.jpeg" alt="Corazón">
+            <h3 id="pregunta">¿Me daría el honor de ser su San Valentín? 💘</h3>
+            <div>
+                <button id="btn-si">Sí 💕</button>
+                <button id="btn-no">No 💔</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
